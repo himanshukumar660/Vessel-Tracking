@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+
+	<title>Vessel Tracking</title>
+	<!-- Font Awesome -->
+	<link href="css/popup.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="./css/github.css">
+	<script src="./js/highlight.pack.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAs0yjICEX_KiaE65lPBTHs69v1lEtjzp8"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<!-- Your custom styles (optional) -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+</head>
+
+<body>
+	<!--Card image-->
+
+	<section style="width: 100%;height: 100%">
+
+		<div class="card" style="position:absolute; width: 25rem; top: 4%;left: 1%;margin-right:1%;border-radius: 0.5rem;height: auto;">
+			<div class="card-body">
+				<!--Body-->
+				<div class="md-form" style="display: inline-flex;width: 100%;margin-bottom: 0px;margin-right: 0px;margin-left: 0px!important">
+					<input type="number" id="mssi" class="form-control" placeholder="Vessel MSSI Number" style="width:66%;padding-bottom: 0px !important;margin-bottom: 0px !important;margin-top: 6.4px" />
+
+					<button class="btn btn-rounded waves-effect waves-light search" style="position:relative;float:left !important;margin-bottom: 3.2px !important;">Track</button>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="card" style="position:absolute;left:1%;width: 25rem;margin-top: 12.7%;margin-right:1%;height: 70%;border-radius: 0.5rem">
+			<div class="card-body">
+
+				<!--Header-->
+				<div class="form-header" style="border-radius: 5rem;padding-bottom: 1%;background-color: #86c232 !important;">
+					<h3>Checkpoints</h3>
+				</div>
+
+				<!--Body-->
+				<img src="./img/anchor_lg.png" class="text-center" style="position:absolute;opacity:0.04;top:25%" height="75%" />
+				<div id="scrollable-content" style='width: 22.7rem; height: auto;'>
+					<table class="table table-striped text-center" style="left:1%;">
+						<thead>
+							<tr>
+								<th style="font-weight:bolder;">DAY</th>
+								<th style="font-weight:bolder;">TIME</th>
+								<th style="font-weight:bolder;">LATITUDE</th>
+								<th style="font-weight:bolder;">LONGITUDE</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+
+				<div id="scrollable-content" style="position:absolute;width: 22.7rem; height: 70%;">
+					<table class="table table-striped text-center">
+						<tbody id="checkpoints">
+
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card det" style="position:absolute; width: 67.5%; top: 4%;right: 2.5%;min-height: 91%;border-radius: 0.5rem;">
+			<div class="card-body">
+				<!--Body-->
+				<div id="details" style="background-color:lightgrey;position:absolute;z-index:100000;width: 96%; height: 93%;">
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+
+	<!-- /Start your project here-->
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+	<script src="js/popup.js"></script>
+
+</body>
+
+</html>

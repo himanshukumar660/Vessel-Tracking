@@ -1,0 +1,115 @@
+
+body {
+	font-family: 'Quicksand' !important;
+	/*background-image: url(../img/whatsapp.jpg);
+	*/
+	height: auto;
+	background-color: #474b4f !important;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	min-width: 1440px !important;
+	min-height: 751px !important;
+}
+#form{
+	width: 200px;
+	margin: 5px 5px 5px 5px;
+	font-size: 14px;
+	border-color: lightgrey;
+	border-width: 0.5px;
+	border-radius: 5px;
+	padding: 4px 4px 4px 4px;
+}
+input{
+	font-family: 'Raleway', sans-serif;
+}
+#search{
+	font-family: 'Raleway', sans-serif;
+    background-color: #4787ed; /* Green */
+		border-color: white;
+		border-width: 0.5px;
+		border-radius: 5px;
+		color: white;
+    padding: 4px 4px 4px 4px;
+		padding-left: 6px ;
+		padding-right: 6px;
+		margin: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#search_box{
+	margin-bottom: -8px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+#form:focus {
+    outline-width: 0;
+}
+#search:focus{
+	outline-width: 0;
+}
+#heading1{
+	margin: 5px 5px 5px 5px;
+	font-size: 17px;
+	border-color: lightgrey;
+	border-width: 0.5px;
+	border-radius: 5px;
+	padding: 4px 4px 4px 4px;
+	font-weight: 400;
+}
+
+#query_result{
+	margin: 5px 5px 5px 5px;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	max-height: 285px;
+	margin-left :7px ;
+	margin-right: 7px;
+	margin-bottom: 7px ;
+	background-color: white;
+	border-radius: 5px;
+	overflow-y: scroll;
+	height: inherit;
+	background-color: #EFEFEF;
+	border-bottom-width:15px;
+	border-bottom: solid;
+	border-bottom-color: #EFEFEF;
+}
+
+#no_result{
+	margin: 7px 7px 7px 7px;
+}
+
+#query_block{
+	margin-left :7px ;
+	margin-right: 7px;
+	margin-bottom: 7px ;
+	height: auto;
+}
+#mera_btn{
+	margin-top: 14px;
+}
+.btn{
+	background-color: #86c232 !important;
+}
+.btn:hover{
+	background-color: #86c232 !important;
+	opacity: 0.6 !important;
+}
+.btn-rounded{
+	border-radius: 10em !important;
+}
+
+.form-header{
+	 color: #fff;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border-radius: 2px;
+}
+#scrollable-content {
+  height: 100px;
+  overflow: auto;
+}
