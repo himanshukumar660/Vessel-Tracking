@@ -1,12 +1,14 @@
 # Tracking Consignment
 Ships, carrying thousands of shipments around the world, are attached with a GPS tracker which updates the GPS location. This task is to create a ship tracking system. Users enter the ship details or tracking number (airway bill) to find the location of the ship. They have multiple journeys from A to B and so on.
 
-![Screenshot](https://lh5.googleusercontent.com/JvyZHgb--XwDAWyPWbFsFlh_FxohByfxjGgHO6VHu34DUlh5oXESEHvxVZ_Nv8LeDdt_RF0Z2h4jh-s00f0m=w1438-h751-rw)
+![Prototype](https://github.com/himanshukumar660/Vessel-Tracking/blob/master/Screenshots/intro.png)
 
 ## Features
 - Implemented Real Time vessel tracking through MSSI number
 - History Tracking of 45 days
 - Customized Google Marker
+
+![Working Example](https://github.com/himanshukumar660/Vessel-Tracking/blob/master/Screenshots/working.png)
 
 ## Language
 - Javascript, CSS, HTML
