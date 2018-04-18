@@ -9,6 +9,7 @@ body {
 	overflow-y: hidden;
 	min-width: 1440px !important;
 	min-height: 751px !important;
+        transform: scale(0.9)
 }
 #form{
 	width: 200px;
