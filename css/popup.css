@@ -21,7 +21,8 @@ body {
 	padding: 4px 4px 4px 4px;
 }
 .card.det{
-	right:-2%!important;
+	width:62.5%
+	right:2.5%!important;
 }
 input{
 	font-family: 'Raleway', sans-serif;
