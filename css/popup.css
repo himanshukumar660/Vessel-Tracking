@@ -9,7 +9,7 @@ body {
 	overflow-y: hidden;
 	min-width: 1440px !important;
 	min-height: 751px !important;
-        transform: scale(0.9)
+        zoom: 90%;
 }
 #form{
 	width: 200px;
@@ -19,6 +19,9 @@ body {
 	border-width: 0.5px;
 	border-radius: 5px;
 	padding: 4px 4px 4px 4px;
+}
+.card.det{
+	right:-2%!important;
 }
 input{
 	font-family: 'Raleway', sans-serif;
