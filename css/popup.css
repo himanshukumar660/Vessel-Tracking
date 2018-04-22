@@ -21,7 +21,7 @@ body {
 	padding: 4px 4px 4px 4px;
 }
 .card.det{
-	width:62.5%
+	width:62.5%!important;
 	right:2.5%!important;
 }
 input{
